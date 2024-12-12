@@ -1,0 +1,293 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 98rem;
+  margin: auto;
+  padding: 0 2.2rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1400;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(66 66 69/70%) transparent;
+  backdrop-filter: blur(2rem);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1rem;
+}
+
+.nav-list-mobile {
+  display: none;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  color: white;
+  padding: 0 1rem;
+  transition: opacity .5s;
+}
+
+.nav-link:hover {
+  opacity: .7;
+}
+
+.nav-link-apple {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin-top: 13px;
+}
+
+.nav-link-search {
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("images/icons/search.svg") center no-repeat;
+}
+
+.nav-link-bag {
+  width: 1.4rem;
+  height: 4.4rem;
+  background: url("images/icons/bag.svg") center no-repeat;
+}
+
+.video {
+  width: 100%;
+}
+
+.section {
+  background-color: rgb(16, 16, 16);
+  width: 1536px;
+  height: 1250px;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  font-size: 17px;
+  justify-content: space-between;
+  row-gap: 28px;
+  padding-bottom: 40px;
+  padding-top: 200px;
+  column-gap: 28px;
+}
+
+h2 {
+  display: inline-block;
+  color: #86868b;
+}
+
+.link-tonton {
+  font-size: 21px;
+  color: rgb(41, 151, 255);
+}
+
+.section-header {
+  color: rgb(134, 134, 139);
+  display: inline-block;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-left: 50px;
+}
+
+.nav-link:hover {
+  color: #0071e3;
+}
+
+.nav-ringkasan {
+  color: rgb(112, 112, 112);
+  font-size: 12px;
+}
+
+.button-beli:hover {
+  color: white;
+}
+
+.linknihbos {
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  margin-right: 50px;
+  gap: 28px;
+}
+
+.media {
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  border-radius: 20px;
+  width: 1360px;
+}
+
+.chipset {
+  width: 1340px;
+  height: 700px;
+}
+
+img {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 1080px;
+  height: 680px;
+}
+
+.ipcolor {
+  background-color: black;
+  width: 1536px;
+  height: 1250px;
+}
+
+.gajee {
+  width: 720px;
+  height: 560px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.genshin {
+  background-color: black;
+}
+
+.coba-coba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.button-beli {
+  background-color: #0071e3;
+  color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lohhga {
+  width: 180px;
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 690px;
+}
+
+.monster {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px;
+}
+
+.itshere {
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(134, 134, 139);
+  text-align: center;
+  margin-top: 60px;
+}
+
+.vidgenshin {
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 150px;
+  width: 1360px;
+}
+
+.honkai {
+  font-size: 22px;
+  color: #86868b;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.kelebihan {
+  background-color: black;
+  width: 1536px;
+  height: 1250px;
+  color: white;
+}
+
+.page {
+  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+
+.a17pro {
+  color: rgb(134, 134, 139);
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.game-sel {
+  color: rgb(134, 134, 139);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+strong {
+  color: #f5f5f7;
+}
+
+figure {
+  position: relative;
+  font-size: 25px;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+.gpuu {
+  font-size: 50px;
+}
+
+.dengan {
+  color: #86868b;
+  font-size: 25px;
+  font-weight: 600;
+}
+

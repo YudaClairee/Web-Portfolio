@@ -1,0 +1,207 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 98rem;
+  margin: auto;
+  padding: 0 2.2rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1400;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  backdrop-filter: blur(2rem);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1rem;
+}
+
+.nav-list-mobile {
+  display: none;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  color: black;
+  padding: 0 1rem;
+  transition: opacity .5s;
+}
+
+.nav-link:hover {
+  opacity: .7;
+}
+
+.nav-link-apple {
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+  margin-top: 13px;
+}
+
+.nav-link-search {
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("images/icons/search.svg") center no-repeat;
+}
+
+.nav-link-bag {
+  width: 1.4rem;
+  height: 4.4rem;
+  background: url("images/icons/bag.svg") center no-repeat;
+}
+
+.video {
+  width: 100%;
+}
+
+.trailer {
+  width: 1536px;
+}
+
+.section {
+  background-color: white;
+  width: 1536px;
+  height: 1250px;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  font-size: 17px;
+  justify-content: space-between;
+  row-gap: 28px;
+  padding-bottom: 40px;
+  padding-top: 200px;
+  column-gap: 28px;
+}
+
+h2 {
+  display: inline-block;
+  color: rgb(29, 29, 31);
+}
+
+.link-tonton {
+  font-size: 21px;
+  color: rgb(41, 151, 255);
+}
+
+.section-header {
+  color: rgb(29, 29, 31);
+  display: inline-block;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-left: 50px;
+}
+
+.linknihbos {
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  margin-right: 50px;
+  gap: 28px;
+}
+
+.media {
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.dynamicc {
+  width: 1330px;
+}
+
+.gambar {
+  width: 1440px;
+  height: 530px;
+  background-color: transparent;
+}
+
+img {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 1080px;
+  height: 680px;
+}
+
+.ipcolor {
+  background-color: white;
+  width: 1536px;
+  height: 1250px;
+}
+
+.gajee {
+  width: 740px;
+  height: 490px;
+  margin-left: 395px;
+  margin-top: 50px;
+}
+
+.coba-coba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.button-beli {
+  background-color: #0071e3;
+  color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.video {
+  height: 69.2rem;
+}
+
+.iphone-15-pro {
+  background: url(images/hero/ip15.png);
+  width: 100%;
+  margin-top: 4.4rem;
+}
+
+.wuhuu {
+  width: 1440px;
+  
+}
