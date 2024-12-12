@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+  color: #f6f6f6;
+}
+
+#home {
+  margin-top: 2rem;
+}
+
+/* header {
+  position: relative;
+} */
+
+.nav-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-barisan {
+  display: fl;
+}
+
+.home-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  height: 90vh;
+}
+
+.left-home {
+  color: #f6f6f6;
+}
+
+.left-home h6 {
+  font-size: 1.5rem;
+}
+
+.left-home h1 {
+  font-size: 3.8rem;
+}
+
+.left-home p {
+  font-size: 2rem;
+}
+
+.left-home a {
+  color: #f80000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 1px solid #f80000;
+}
+
+.yuda {
+  color: #ba0000;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-judul h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.text-isian p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.skills-title h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.table {
+  border: 2px solid red;
+}
+
+.table-title {
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.table-title h1 {
+  font-weight: 500;
+  color: #ba0000;
+}
+
+.table-desc p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.portfolio-table {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.portfolio-text h1 {
+  font-weight: 600;
+}
+
+.title-portfolio {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+
+.portfolio-content {
+  width: 500px;
+}
+
+.gambar-about {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.gambar-about img:hover  {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+
+.gambar-about img {
+  filter: grayscale(1);
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-filter: grayscale(1);
+}
+
+.navbar-header a {
+  transition: color 0.4s ease-in-out;
+  -webkit-transition: color 0.4s ease-in-out;
+  -moz-transition: color 0.4s ease-in-out;
+  -ms-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+} 
+
+.navbar-header.scrolled a {
+  color: black;
+}
+
+
+
+.navbar-header {
+  background-color: #7c0000;
+  transition: background-color 0.4s ease-in-out;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -moz-transition: background-color 0.4s ease-in-out;
+  -ms-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+}
+
+.navbar-header.scrolled {
+  background-color: white;
+  opacity: 0.98;
+}
+
+.image-portfolio img {
+  filter: grayscale();
+  -webkit-filter: grayscale();
+}
+
+.image-portfolio img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+header {
+  background-color: black;
+}
+
+@media (max-width: 550px) {
+  .home-container {
+    flex-direction: column;
+  }
+
+  .left-home {
+    order: 2;
+  }
+
+  .right-home {
+    order: 1;
+  }
+
+  .right-home img {
+    width: 400px;
+  }
+
+  .skills-table {
+    flex-direction: column;
+  }
+
+  .portfolio-table {
+    flex-direction: column;
+  }
+
+  .portfolio-content {
+    width: 400px;
+  }
+
+  .image-portfolio img {
+    width: 370px;
+  }
+
+  .gambar-about {
+    flex-direction: column;
+  }
+}
+

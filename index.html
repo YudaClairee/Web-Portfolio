@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-dark">
+    <!-- Header Section Starts -->
+    <header>
+      <nav class="navbar-header navbar navbar-expand-lg p-3 fixed-top">
+        <div class="container">
+          <a href="" class="navbar-brand text-white" style="font-size: 1.5rem"
+            >DjibYuda</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto h5 gap-3">
+              <li class="navbar-item">
+                <a href="#home" class="nav-link text-white">Home</a>
+              </li>
+              <li class="navbar-header">
+                <a href="#about" class="nav-link text-white">About</a>
+              </li>
+              <li class="navbar-header">
+                <a href="#skills" class="nav-link text-white">Skills</a>
+              </li>
+              <li class="navbar-header">
+                <a href="#portfolio" class="nav-link text-white">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Section Ends -->
+    <main>
+      <section class="home-section bg-gray" id="home">
+        <div class="container">
+          <div class="home-container">
+            <div class="left-home">
+              <h6>Yoo, Namaku <span class="yuda">Yuda</span></h6>
+              <h1>Web Developer Alakadarnya</h1>
+              <p class="mt-3">Masih Mahasiswa</p>
+              <a href="" class="rounded-3 px-3 py-2"> About Me </a>
+            </div>
+            <div class="right-home">
+              <img src="assets/homebg.png" alt="" width="550px" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container py-5">
+          <div class="about-container">
+            <div class="p-4 text-judul">
+              <h1>About Me</h1>
+            </div>
+            <div class="text-isian">
+              <p class="py-3">
+                Aku adalah seorang mahasiswa Program Studi Bisnis Digital
+                Universitas Pendidikan Indonesia. aku memiliki ketertarikan
+                terhadap teknologi dan programming khususnya web development dan
+                web3. Doain aku semoga aku bisa menjadi programmer terhebat di
+                dunia guys.
+              </p>
+            </div>
+            <div class="gambar-about">
+              <img src="assets/yuda1.jpg" alt="" />
+              <img src="assets/yuda2.jpg" alt="" />
+              <img src="assets/yuda3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="" id="skills">
+        <div class="container py-5">
+          <div class="skills-title p-4 mb-4">
+            <h1>Skills</h1>
+          </div>
+          <div class="skills-table d-flex gap-3">
+            <div class="table border-danger rounded-3 p-3">
+              <div class="table-title d-flex">
+                <img src="assets/html.svg" alt="HTML" width="80px" />
+                <h1>HTML</h1>
+              </div>
+              <div class="table-desc">
+                <p>
+                  Memahami Semantic Tag untuk HTML dan bagaimana cara menuliskan
+                  kode yang baik dan benar
+                </p>
+              </div>
+            </div>
+            <div class="table border-danger rounded-3 p-3">
+              <div class="table-title d-flex">
+                <img src="assets/css.svg" alt="CSS" width="80px" />
+                <h1>CSS</h1>
+              </div>
+              <div class="table-desc">
+                <p>
+                  Memahami dasar-dasar CSS, Konsep dari CSS Flexbox dan CSS
+                  Grid, serta memahami Framework CSS yaitu Bootstrap
+                </p>
+              </div>
+            </div>
+            <div class="table border-danger rounded-3 p-3">
+              <div class="table-title d-flex">
+                <img
+                  src="assets/javascript.svg"
+                  alt="Javascript"
+                  width="80px"
+                />
+                <h1>Javascript</h1>
+              </div>
+              <div class="table-desc">
+                <p>
+                  Memahami konsep dasar Javascript seperti tipe data, operator,
+                  loop statement, conditional statement, dan basic function.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="container py-5">
+          <h1 class="title-portfolio">Portfolio</h1>
+          <div class="d-flex portfolio-table gap-3">
+            <div
+              class="p-3 portfolio-content rounded-3"
+              style="border: 1px solid #7c0000"
+            >
+              <div class="image-portfolio mb-3">
+                <a href="https://digivathon.com/" target="_blank">
+                  <img
+                    src="assets/digivathon.png"
+                    alt=""
+                    width="400"
+                    style="border-radius: 0.4rem"
+                  />
+                </a>
+              </div>
+              <div class="portfolio-text">
+                <h1>Digivathon Web</h1>
+                <p style="font-size: 1.3rem">
+                  Digivathon adalah website lomba business case yang
+                  diselerenggakan oleh Hima DIGNITY UPI.
+                </p>
+              </div>
+            </div>
+            <div
+              class="portfolio-content p-3 rounded-3"
+              style="border: 1px solid #7c0000"
+            >
+              <div class="image-portfolio mb-3">
+                <a href="TIM 2/index.html">
+                  <img
+                    src="assets/apple.png"
+                    alt=""
+                    width="400"
+                    style="border-radius: 0.4rem"
+                  />
+                </a>
+              </div>
+              <div class="portfolio-text">
+                <h1>Apple Mockup Web</h1>
+                <p style="font-size: 1.3rem">
+                  Membuat mockup dari web perusahaan yang ada di untuk pemenuhan
+                  tugas Curious Club Hacker.
+                </p>
+              </div>
+            </div>
+            <div
+              class="portfolio-content p-3 rounded-3"
+              style="border: 1px solid #7c0000"
+            >
+              <div class="image-portfolio mb-3">
+                <a href="dleath.my.id">
+                  <img
+                    src="assets/dleath.png"
+                    alt=""
+                    width="400"
+                    style="border-radius: 0.4rem"
+                  />
+                </a>
+              </div>
+              <div class="portfolio-text">
+                <h1>D'Leath Website</h1>
+                <p style="font-size: 1.3rem">
+                  Membuat website untuk brand D'Leath yang merupakan brand jaket kulit asal Tasikmalaya yang didirikan tahun 2024.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="container my-5"></div>
+      <footer class="text-center text-white" style="background-color: #7c0000">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-floating m-1"
+              style="background-color: #3b5998"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-floating m-1"
+              style="background-color: #55acee"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              class="btn btn-floating m-1"
+              style="background-color: #dd4b39"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-floating m-1"
+              style="background-color: #ac2bac"
+              href="https://www.instagram.com/djibyudaaa/"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-floating m-1"
+              style="background-color: #0082ca"
+              href="https://www.linkedin.com/in/djibraniyuda/"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-floating m-1"
+              style="background-color: #333333"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #7c0000">
+          © 2024 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">DjibYuda</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+    <!-- End of .container -->
+    <script src="script.js"></script>
+  </body>
+</html>
